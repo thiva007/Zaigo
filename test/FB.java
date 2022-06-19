@@ -18,7 +18,7 @@ public class FB extends BaseClass {
 
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.amazon.in/");
+		driver.get("https://www.facebook.com/");
 
 		WebElement element = driver.findElement(By.xpath("//div[@id='desktop-1']/parent::div"));
 		String text = element.getText();
